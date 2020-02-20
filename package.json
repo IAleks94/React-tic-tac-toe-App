@@ -14,12 +14,14 @@
     "react-scripts": "3.3.1"
   },
   "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "remaploy": "npm run build",
     "deploy": "gh-pages -d build",
       "start": "response-scripts start",
-      "build": "build-scripts build",
+      "build": "build-scripts build"
   },
   "eslintConfig": {
     "extends": "react-app"
